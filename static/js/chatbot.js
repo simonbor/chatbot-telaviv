@@ -2,7 +2,7 @@ var ChatBot = {};
 
 //The server path will be used when sending the chat message to the server.
 //replace with your server path if needed
-//ChatBot.SERVER_PATH = "http://localhost:5000";
+ChatBot.SERVER_PATH = "http://localhost:5000";
 //ChatBot.SERVER_PATH = "https://chatbot-telaviv.herokuapp.com";
 ChatBot.DEFAULT_ANIMATION = "confused";
 //The animation timeout is used to cut the current running animations when a new animations starts
