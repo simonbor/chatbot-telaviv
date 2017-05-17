@@ -1,1 +1,1 @@
-corpora
+all-corpora
