@@ -167,9 +167,11 @@ def hello_world():
     return "hello world"
 
 if __name__ == '__main__':
-    port = 5000
-    app.run(host='0.0.0.0', port=port)
     # app.run(debug=True) # run the app inside the main
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
+
 
 """
     print "Hello! My name is Tel Aviv Cafebot. I am a chatbot designed to recommend cafes in Tel Aviv!"
